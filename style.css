@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Big Shoulders Display", cursive;
+  height: 100px;
+  background-color: #ffe4c4;
+  align-items: center;
+}
+.banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 100%;
+  
+}
+.banner .content {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+.banner .content h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 5.5em;
+  text-transform: uppercase;
+  color: #ffff;
+}
+.banner .content p {
+  font-size: 2.0em;
+  color: #ffff;
+}
+.banner .content img {
+  width: 40px;
+  height: 40px;
+}
+
+ul{
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;   
+    
+}
+nav{
+  display: flex;
+  justify-content: flex-end;
+  text-align: justify;
+  background-color: snow;
+  
+}
+
+div{
+  display: flex;
+  margin-bottom: 50px;
+}
+ol{
+ 
+  font-size:larger;
+  padding-right: 10px;
+  text-decoration: none;
+  
+}
+
+a{
+  font-family:'Courier New', Courier, monospace;
+  color: hsl(0, 0%, 0%);
+  border-inline-color: #ffffff;
+  text-decoration: none;
+}
+#div_fairy{
+  background-image: url("./Cópia\ de\ depositphotos_61123063-stock-photo-fairy-tale-landscape.webp");
+  width: 100%;
+  height: 100%;
+}
+
+
+div.box {
+	width: 150px;
+  height: 100px;
+	display: flex;
+  justify-content:space-around; 
+  
+}
+
+
+
+hr{
+  color: blanchedalmond;
+}
+
+
+p{
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-style: italic;
+  margin-left: 15px;
+  margin-right: 15px;
+  word-spacing: 3px;
+  max-lines: auto;
+}
+
+#sobre{
+  display: flex;
+  justify-content: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: large;
+  text-align: justify;
+}
+#video{
+  display: flex;
+  justify-content: left;
+}
+#anime{
+	display: flex;
+  justify-content:center; 
+}
+
+#audio{
+  display: flex;
+  justify-content: center;
+}
+footer{
+ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 5px;
+  
+  
+}
+h2{
+  display: flex;
+  justify-content: center;
+}
+footer h1{
+  display: flex;
+  justify-content: center;
+  
+}
+.div .lado{
+  width: 150px;
+	display: inline-flex;
+  justify-content:space-evenly; 
+}
